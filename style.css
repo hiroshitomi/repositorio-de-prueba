@@ -1,0 +1,23 @@
+/* mobile styles */
+/* Rule - Media type - media feature - ordinary css rules */
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: #F09A9D;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 481px) and (max-width: 980px){
+    body{
+        background-color: #F5CF8E;
+    }
+}
+
+/* Desktop*/
+@media screen and (min-width: 981px){
+    body{
+        background-color: #B2D6FF;
+    }
+}
